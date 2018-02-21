@@ -16,6 +16,6 @@ else:
                         os.path.join("/dev", file_name)
                     ])
 ```
-On system with both hard-wired webcam and v4l2loopback, replace the whole fuction `def getVideoDevices(self):`
+On system with both hard-wired webcam and v4l2loopback, replace the whole content of the fuction `def getVideoDevices(self):`
 
 with the above code (cross out the `else:`)
