@@ -1,6 +1,7 @@
 # qtqr
-fork of official ppa qtqr with support for v4l2loopback
-add this to qrqt.py at line 797 of the function def getVideoDevices(self):
+Fork of official ppa qtqr with support for v4l2loopback.
+
+Add this to qrqt.py, at line 797 of the function, `def getVideoDevices(self):`
 ```
 else:
             file_names = [x for x in os.listdir("/dev") if x.startswith("video")]
