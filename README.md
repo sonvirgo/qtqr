@@ -1,7 +1,7 @@
 # qtqr
-Fork of official *ppa:* **qtqr** with support for v4l2loopback.
+Fork of official *ppa:qtqr* with support for v4l2loopback.
 
-Add this to ***qtqr.py***, on line 797, at the end of the function`def getVideoDevices(self):`
+Add this to **qtqr.py**, on line 797, at the end of the function`def getVideoDevices(self):`
 
 Before `if __name__ == '__main__':`
 ```
